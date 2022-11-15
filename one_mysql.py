@@ -15,7 +15,7 @@ except:
 
 
 # 创建数据库链接
-conn = pymysql.connect(host='72.44.78.112', port=3306, user='one2022', passwd='TmECHeAPJARwEBsD', db='one2022')
+conn = pymysql.connect(host='', port=3306, user='one2022', passwd='', db='one2022')
 cur = conn.cursor()
 
 
