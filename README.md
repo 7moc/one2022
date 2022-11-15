@@ -1,25 +1,22 @@
-# one2022
-## 任务列表
 
-["Pika","Beethoven","Velodrome","Granary","Rubicon","Perp","Synapse","PoolTogether","mint_uniswap","mint_Synapse","mint_Stargate","mint_Perp","mint_Pika","mint_PoolTogether",PoolTogether_withdrawFrom"]
-
-
-
-
-## opt_task-各个任务状态规则
+## Status
+任务整体的状态
 - 0 未开始,默认
+- 1 进行中
 - 2 已完成
 
 
-## opt_task-status
+## 任务状态
+- 任务列表：["Pika","Beethoven","Velodrome","Granary","Rubicon","Perp","Synapse","PoolTogether","mint_uniswap","mint_Synapse","mint_Stargate","mint_Perp","mint_Pika","mint_PoolTogether",PoolTogether_withdrawFrom"]
 - 0 默认
+- 1 进行中
 - 2 已完成（这个需要定时器去扫描一下，如果所有task任务都完成了，那就更新为2）
 
 
 
 
 
-## opt_task-qx_status
+## qx_status
 - 0 默认值，代表空的
 - 1 未使用
 - 2 已使用
